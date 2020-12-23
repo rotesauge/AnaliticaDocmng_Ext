@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4cc16eed-f3bb-4d69-b76a-1c69fed60df1">
+  <producedTypes>
+    <objectType typeId="98157449-6d06-40a1-8704-ac9d13bab858" valueTypeId="8f175292-1008-4c8f-878d-c1b6582e99ec"/>
+    <refType typeId="850a2359-7cd4-41e9-b5b9-e868b97c3888" valueTypeId="98bc0dcd-1e62-4647-9654-26c165a5e553"/>
+    <selectionType typeId="7d20a0b3-388f-4bf1-894b-654cf971852b" valueTypeId="801e38df-193f-4b1e-8d12-fbf05f413901"/>
+    <listType typeId="8c9b1543-02bd-4bcf-93eb-11d74b58bf61" valueTypeId="06572e62-1a36-4c31-8a23-3769bf62932c"/>
+    <managerType typeId="f807b827-86ac-4c0d-9ad2-3418f0d7ea82" valueTypeId="9dc9cee0-9f4a-4369-ae85-639ac4144738"/>
+  </producedTypes>
+  <name>аДокументооборотВидыПроцессов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="222f92d5-dccd-48b7-a308-b8a769b5ab04">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

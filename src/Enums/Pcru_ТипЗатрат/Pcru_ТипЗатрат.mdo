@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36413f54-7c7c-4733-a020-969f2b98ab31">
+  <producedTypes>
+    <refType typeId="feef4810-dfcf-4978-9243-0d207bee35fa" valueTypeId="1ddb6810-966b-44c5-a202-fba5a69e441a"/>
+    <listType typeId="365525fb-22db-4ecd-9f16-d89846b5eb14" valueTypeId="f73fe52e-26fc-4402-b5b0-ab53d90374fb"/>
+    <managerType typeId="f510cd63-98a6-463d-9461-e989954827dd" valueTypeId="0813d7bd-99a5-4eac-ac6e-40b24dcd1600"/>
+  </producedTypes>
+  <name>Pcru_ТипЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru тип затрат</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b6de82d8-a2ac-4db0-8ff2-c7d90800b7ea">
+    <name>ТипЗатрат1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип затрат 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2948bf6-c2e6-4f70-9d76-ee5de9e323ac">
+    <name>ТипЗатрат2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип затрат 2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

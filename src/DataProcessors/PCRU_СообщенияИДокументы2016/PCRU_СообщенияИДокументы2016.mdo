@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36d96a4b-c053-4b4f-8301-eb688e503003">
+  <producedTypes>
+    <objectType typeId="49156862-9343-4359-bf61-1823e5c65779" valueTypeId="e3832dd8-e41f-4e1a-8af8-2a72cad4b313"/>
+    <managerType typeId="19d0f189-30d9-4ac0-9ffa-129c7c2df38b" valueTypeId="82be65fd-cfac-4a17-829b-8fd0116b06ba"/>
+  </producedTypes>
+  <name>PCRU_СообщенияИДокументы2016</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения пользователя Proficredit</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Posts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.PCRU_СообщенияИДокументы2016.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c1c975ed-48b5-432f-a4c9-0ab3410a508d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения и документы (v. 2015)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recent Documents</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="125c2ac6-1485-400b-81f5-91c73a583876">
+    <name>ФормаДобавленияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления ссылки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form for adding links</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

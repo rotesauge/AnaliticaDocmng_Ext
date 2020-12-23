@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bb95668-2073-4076-a483-86dc5125ef0b">
+  <producedTypes>
+    <selectionType typeId="96200ee0-cf75-46a4-9aca-c7b84c7ad3f4" valueTypeId="71707d49-1014-4d30-9397-a7100ed5b246"/>
+    <listType typeId="04f6c424-3ee4-4eed-9539-4c5e1aa7ab96" valueTypeId="edb6918b-bdc5-4f82-ae4c-cb08f4320415"/>
+    <managerType typeId="a73d3e6d-c015-4647-9742-c3367468a92b" valueTypeId="78aee5a1-14f1-423a-ac6b-65c134109f71"/>
+    <recordSetType typeId="603f2a72-1614-487b-9311-d3e4a0eb8fc7" valueTypeId="05f6b2bc-6543-435c-8e00-c547256ba5f6"/>
+    <recordKeyType typeId="537bc036-b638-4e88-b7e1-098bed70804a" valueTypeId="a4acc154-3f0b-4239-b09a-741acd4fc5db"/>
+    <recordType typeId="c0ab8a63-b328-4f0f-a67e-037835c5c852" valueTypeId="ea7d5c9f-2ba1-495a-bb7d-03ee4424039e"/>
+    <recordManagerType typeId="8d0ef4e1-8f42-4469-ac56-e997c0737902" valueTypeId="8d6c5cd5-c2e0-4611-b8b4-c2677e142b41"/>
+  </producedTypes>
+  <name>pcru_ActiveUsers</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Профикредит) active users</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dimensions uuid="7eba5c0a-67a1-400c-afab-9422b4813a2b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1eecd18c-f2a5-4bfc-99bd-705d8b6e264d">
+    <name>НомерСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер соединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f7a7b10-5fdd-4434-bdcb-5bd090e353fe">
+    <name>ТипСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип соединения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

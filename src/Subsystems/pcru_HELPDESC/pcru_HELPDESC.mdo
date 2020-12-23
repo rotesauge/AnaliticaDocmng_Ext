@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9864fcd-4dbc-45b2-8a87-7760a631a713">
+  <name>pcru_HELPDESC</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru HELPDESC</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Pcru_HDOP</picture>
+  </picture>
+  <content>e86d8b47-9d9d-43d6-92f8-d1c2c4cc0b06</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Файлы</content>
+  <content>503a44ca-0ab9-4e74-8e23-defd24034dff</content>
+  <content>DataProcessor.ПанельУправленияHELPDESC</content>
+  <content>DataProcessor.Pcru_Обработка1</content>
+  <content>InformationRegister.pcru_ПараметрыВыданныхЗадач</content>
+  <content>WebService.Pcru_DocumentWorkflow</content>
+  <content>InformationRegister.pcru_ИсполнителиПоДокументам</content>
+  <content>InformationRegister.pcru_ПорученияГлавамОтделов</content>
+  <content>InformationRegister.Pcru_РазрешениеНаРедактирование</content>
+  <content>InformationRegister.pcru_СогласованиеДокументов</content>
+  <content>InformationRegister.Pcru_ТекущийИсполнительПоДокументу</content>
+  <content>InformationRegister.аДокументооборотОткрытыеОбъекты</content>
+  <content>InformationRegister.аДокументооборотСсылкиПроцессов</content>
+  <content>InformationRegister.аДокументооборотСостояниеДокументов</content>
+  <content>InformationRegister.аДокументооборотРезультатыИсполнителейЗадач</content>
+  <content>InformationRegister.аДокументооборотМатрицаЗаместителей</content>
+  <content>InformationRegister.аДокументооборотЗаменыИсполнителейВТочекПроцесса</content>
+  <content>BusinessProcess.аДокументооборотКорпоративныйБизнесПроцесс</content>
+  <content>Task.аДокументооборотЗадача</content>
+  <content>Catalog.ВерсииФайлов</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.пкру_СтатьиРасходов</content>
+  <content>Catalog.пкру_Офисы</content>
+  <content>Catalog.пкру_CostCentr</content>
+  <content>Catalog.аДокументооборотВидыПроцессов</content>
+  <content>Catalog.аДокументооборотВидыДокументов</content>
+  <content>Catalog.pcru_ПараметрыСогласования</content>
+  <content>Catalog.pcru_ЗаместителиСотрудника</content>
+  <content>InformationRegister.Pcru_СоответствиеДокументовЗапускаемыхПроцессов</content>
+</mdclass:Subsystem>

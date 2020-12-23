@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="385a7a83-06a6-4514-bdb0-3eab866f2482">
+  <producedTypes>
+    <refType typeId="dd0cddd3-6d6c-484d-85b3-fc17b3ba4ba2" valueTypeId="3c98cd55-3f29-4225-b034-66fccb84a2c1"/>
+    <listType typeId="f129ba06-f80b-4897-9379-8a39a5b44131" valueTypeId="4a16772e-26ef-41b2-86b1-958a4b61cc32"/>
+    <managerType typeId="65f38c52-2f34-4d72-b600-688b88ea0be5" valueTypeId="bb00061e-603a-4410-a1c0-3930958bb939"/>
+  </producedTypes>
+  <name>аГруппировкиЗадач</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="1af98c41-b188-4297-8a24-7aa9d02bd406">
+    <name>НовыеЗадачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f5afb5ce-340a-44fd-9e46-b7aa471ec2f3">
+    <name>ЗадачиВРаботе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a47c9ca8-7f04-4d9d-a87b-a14f6f6c6be4">
+    <name>ВыполненныеЗадачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a2194d2a-3584-4e1d-8b1a-7d8687435427">
+    <name>Переадресовано</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="18c237b6-fb1c-4cde-8659-35e562558ad8">
+    <name>НаходятсяВРаботе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b33f35f1-3ee0-40a2-b601-d6a804637d56">
+    <name>ОжидаютВыполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

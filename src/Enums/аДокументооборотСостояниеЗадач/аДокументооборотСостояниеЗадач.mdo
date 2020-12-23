@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="422c4532-e1e2-4ec4-8466-e24759028e7a">
+  <producedTypes>
+    <refType typeId="15cf7ecf-e044-4538-8e70-d4df796a09a4" valueTypeId="bf107740-ce18-449f-8bd2-baa45ad5aeff"/>
+    <listType typeId="4a20f851-26c2-4a26-8f38-b6cdac433395" valueTypeId="c45c8992-70ac-4c13-bd3a-0c41c9665ec0"/>
+    <managerType typeId="74eec373-650b-4e8e-b083-53d7eb03ce8d" valueTypeId="ec3cca40-4b19-4386-b350-7c80a93b3ff9"/>
+  </producedTypes>
+  <name>аДокументооборотСостояниеЗадач</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="19d0830b-f9d3-4ae8-9163-18f699f9c714">
+    <name>Выполнена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3ed7007c-f8dd-40fa-9147-f020bbb04e58">
+    <name>Одобрена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="73dd6a7b-b3b2-40bf-bdce-27f9068c110a">
+    <name>Отклонена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="724fc058-5e31-4573-9343-4dee18e5dfe1">
+    <name>ОжидаетВыполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5846fe56-ce0a-46ea-9c49-c0390c395a8b">
+    <name>Выполняется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

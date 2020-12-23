@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04e55db2-faed-4c40-9475-f3e4e827fd27">
+  <name>Pcru_WSWORKS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru WSWORKS</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

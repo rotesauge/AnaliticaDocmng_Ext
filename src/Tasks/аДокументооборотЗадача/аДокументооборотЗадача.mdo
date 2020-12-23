@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37ae246b-1a56-4a10-919c-33482a22d157">
+  <producedTypes>
+    <objectType typeId="48e6b060-1efb-4287-9533-99d83694fdd6" valueTypeId="f1a3875e-b218-4ecc-ac0c-9524a465567b"/>
+    <refType typeId="fac5ce06-bc03-4715-a93b-89090830c71d" valueTypeId="c330de3c-9755-4985-8dae-9a197bdb9d9d"/>
+    <selectionType typeId="77a6392e-5d6f-4a21-8fd3-a6b09ace3550" valueTypeId="9dc0dfbd-72aa-4f7b-9587-ee03e1098f9d"/>
+    <listType typeId="60a9dc44-8bf5-46d2-a8aa-91ba696a4424" valueTypeId="227bf539-505d-4ffa-85bf-665ea03ac5c2"/>
+    <managerType typeId="0d384d67-a212-4d2a-aa4f-202539d8dd4b" valueTypeId="ec2ae216-0714-4c6f-ad42-09e6d24c5f05"/>
+  </producedTypes>
+  <name>аДокументооборотЗадача</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TaskExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="d38a0060-616b-4a1e-b14f-f34b65c87765">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </attributes>
+  <attributes uuid="d89f14a6-05f1-4443-8a35-8f0aaf51f6b9">
+    <name>ТочкаКБП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.аДокументооборотТочкиКорпоративныхПроцессов</types>
+    </type>
+  </attributes>
+  <attributes uuid="4c730fed-752c-4596-bb63-e8facbc9f2fd">
+    <name>НомерПрохода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="7db878b4-992d-457b-b80c-a778d90551ed">
+    <name>КонтрольРезультаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="54fdef9f-d9cd-45b4-b746-e80339b3be17">
+    <name>ИднИсполнителя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="9efb2239-cc76-47c8-84e8-bd0bcd4260c6">
+    <name>ДатаВыполненияПлан</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="f670340d-5b60-4ce6-8525-89e898afdaf4">
+    <name>РезультатТекстовоеСообщение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="ab991646-4fed-4d4f-bd6e-2262faa497e3">
+    <name>ДатаВыполненияФакт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="1c1ee598-9bd6-4647-b1ae-63808fed0bc9">
+    <name>ХранилищеТекстовогоРезультата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </attributes>
+  <attributes uuid="e4936cc9-9fa5-48d0-86b9-2286a0413789">
+    <name>ХранилищеТекстаЗадания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </attributes>
+  <attributes uuid="7ac881b9-f181-4941-83ce-c492ce22649c">
+    <name>ПереадресованоДругому</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="68ddb42b-b459-4de0-89f5-5f973d9ff137">
+    <name>ПереадресованоИзЗадачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>TaskRef.аДокументооборотЗадача</types>
+    </type>
+  </attributes>
+  <attributes uuid="422adaa6-e2d7-4316-bbb6-93e0911ca430">
+    <name>ТекстовыйРезультат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="4dfe278c-6dca-4055-a36c-b9e7353513c9">
+    <name>ВидПроцессаНаименование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <tabularSections uuid="92d4425f-4657-44a1-8d87-2f1f03e1207e">
+    <producedTypes>
+      <objectType typeId="2d82e334-6846-4ec1-a401-134e57b21dc8" valueTypeId="83eefde9-f8f8-4d39-a8c0-9293b2851ecc"/>
+      <rowType typeId="1f6794aa-523f-4e54-820a-1bbddfe8e90e" valueTypeId="926d2df2-f56e-42ae-bee0-3259392d3b44"/>
+    </producedTypes>
+    <name>ЗафиксированныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c2b04c86-3bbf-4351-b437-e8a3d0ef2662">
+      <name>РеквизитПроцесса</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>CatalogRef.аДокументооборотДополнительныеРеквизиты</types>
+      </type>
+    </attributes>
+    <attributes uuid="4e496933-b1ab-4854-91e7-68f4117bb52a">
+      <name>ЗначениеРеквизита</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>AnyRef</types>
+      </type>
+    </attributes>
+    <attributes uuid="ed1e1274-78a9-4f55-a9be-0c1e81212f66">
+      <name>НаименованиеВФорме</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="c3a9bd46-7fa3-4f6a-aa64-81a9625f2dd4">
+      <name>НаименованиеВФормеИностранное</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6047c0cc-2f2e-4a0a-a8a8-aa3a9b2b07dd">
+    <producedTypes>
+      <objectType typeId="7de0396e-e600-412a-8fdc-ef080ddf173f" valueTypeId="9174634f-9365-46d8-9935-6e1f3b75ca61"/>
+      <rowType typeId="028a18dc-3f63-4566-971d-73892d106900" valueTypeId="620e202c-262b-459d-bde8-84965820c174"/>
+    </producedTypes>
+    <name>ЗафиксированныеЗадачиКонтроля</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="a0ec057c-138e-48b0-924c-ab63ac7dd41a">
+      <name>ЗадачаИсполнителя</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>TaskRef.аДокументооборотЗадача</types>
+      </type>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6eca6df0-8a52-401e-a220-89aa19daa021">
+    <name>ФормаИсполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="0cef6e6f-a293-4796-a649-e154e85d9e7a">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="3c1181b8-fcdc-4563-8ed1-e91cef661b72">
+    <name>ФормаИсполнения1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма исполнения ЗНО</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of execution</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <addressingAttributes uuid="a16e2a66-dc1b-4453-bef3-21b9e9e9d4b6">
+    <name>Исполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </addressingAttributes>
+</mdclass:Task>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47c22486-e818-4e79-8e01-c8492d6b2b06">
+  <name>pcru_РаботаСДокументами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с документами</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

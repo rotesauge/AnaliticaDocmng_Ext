@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="196477b2-1892-4d53-8fd3-e7ac9c519beb">
+  <producedTypes>
+    <objectType typeId="3873cf75-1b29-4de2-bb2a-f41059230d78" valueTypeId="0dce022a-7f57-4276-8146-b6fc10e7e3d5"/>
+    <refType typeId="add877b7-9e9a-45da-8172-2ec2392eaee3" valueTypeId="2616f137-f85c-4a14-aea6-9f7b682e9b78"/>
+    <selectionType typeId="5302602c-8db2-4661-a659-12fb1b1d28fd" valueTypeId="3858c077-2ab5-42c1-94b7-d7e55ff104ee"/>
+    <listType typeId="9c3f6f65-c567-4511-b33f-a2e219eabdc4" valueTypeId="4115cf72-2687-4054-b079-2f5eb330a20c"/>
+    <managerType typeId="63f7a2b7-9f44-4d50-84f8-33c916532ddc" valueTypeId="e298819f-2b81-42da-b0ab-434c7dff1df2"/>
+  </producedTypes>
+  <name>аДокументооборотФорматНумераторов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

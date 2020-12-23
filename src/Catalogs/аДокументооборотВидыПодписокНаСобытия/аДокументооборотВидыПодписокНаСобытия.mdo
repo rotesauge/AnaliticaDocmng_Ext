@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f368ad42-fcc8-4866-90e5-00bfb0fd60ac">
+  <producedTypes>
+    <objectType typeId="ef838858-f28e-44dc-b03b-0f6f4d04f60e" valueTypeId="bc2323cc-a951-4eb7-a425-42e0982f1506"/>
+    <refType typeId="6022816f-329d-4344-b7c8-dd96b23cf8a8" valueTypeId="f947762e-39b5-4aaf-bf24-5bcad0825c0b"/>
+    <selectionType typeId="4fe632fb-4780-4e30-b2c4-0cf033b58f46" valueTypeId="8cad80df-4ce0-4154-963c-10a4f1113275"/>
+    <listType typeId="bd835ae9-601c-4135-a601-1a5dc7506dc4" valueTypeId="5eaca7b3-e03c-4baf-80b5-eebc336b8dee"/>
+    <managerType typeId="72207d82-e015-4a4f-87b2-a1b531ae8510" valueTypeId="2c84766a-e0e8-4ace-a5a3-8360782bd64c"/>
+  </producedTypes>
+  <name>аДокументооборотВидыПодписокНаСобытия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

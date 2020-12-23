@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="78037487-9393-44e9-8f94-cacccd80c445" extendedConfigurationObject="71bc4b08-b1e9-4087-97c0-95b8a6557ba8">
+  <producedTypes>
+    <refType typeId="5f83e317-a615-45b2-bd4c-e22d6495e8fc" valueTypeId="522569fd-0dea-46c2-98b1-1c68420af9d7"/>
+    <listType typeId="e37c8c7d-0ecf-4759-b39e-f4816e98385e" valueTypeId="39f1b61f-5758-42fd-9fa5-0a12e9753b43"/>
+    <managerType typeId="d1338a38-96e9-4ef3-b8b4-1f8b9e8634bb" valueTypeId="70ef568a-8ddc-4efa-aaa2-f722e12b8387"/>
+  </producedTypes>
+  <name>ЮридическоеФизическоеЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="ec4460a9-684f-4527-a7c4-ebaba4dd292b" extendedConfigurationObject="77747ef5-93df-4f72-b402-15f39835c884">
+    <name>ЮридическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1262d05c-f70f-43e2-b54e-1b16ab6b6ffe" extendedConfigurationObject="ee13ee53-0892-4c8a-b8bf-14f66383816a">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="753af320-9730-46e3-80e4-7978520554fd">
+  <producedTypes>
+    <selectionType typeId="dca469ac-c54b-42a7-b8f0-3678ab996a8a" valueTypeId="d30911a4-9634-40a0-8fe7-1116f082489d"/>
+    <listType typeId="107ce8dc-ba6a-4a52-b660-f8b1f3fae258" valueTypeId="26942465-73c1-46e6-a7ab-e891f1290b62"/>
+    <managerType typeId="626cc9e0-9fc4-4b37-9625-13d0dc164a82" valueTypeId="b0d2751c-2d5a-4b00-9a2f-2435bb7a87d9"/>
+    <recordSetType typeId="84712545-0127-4bbd-8ce5-01373003bf1e" valueTypeId="d7d8a379-2837-4abb-8047-7a1e9ca0a76a"/>
+    <recordKeyType typeId="57132a84-b7e5-42a8-9363-53cc74c10eb6" valueTypeId="ec170cc7-706e-4ac5-be1d-8c812df3895f"/>
+    <recordType typeId="b218e9d3-2770-49f2-8308-960b74ea0a12" valueTypeId="8543e0aa-69e9-4b36-be24-b3fa915c8223"/>
+    <recordManagerType typeId="309880f6-0c53-44c8-a7a9-ea224fcaa70c" valueTypeId="742dcf57-3630-40f5-aed7-0620ed95b3d6"/>
+  </producedTypes>
+  <name>аДокументооборотЗаменыИсполнителейВТочекПроцесса</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="57e43c24-7dbc-4103-8fbc-fd0680a923a4">
+    <name>ДействующийИсполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </resources>
+  <dimensions uuid="3d07baa0-f640-406f-b9f7-693164539860">
+    <name>БизнесПроцесс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>BusinessProcessRef.аДокументооборотКорпоративныйБизнесПроцесс</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="9961856e-a423-43a3-b15d-95847351eabd">
+    <name>ИсходныйИсполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="bae728a0-b33f-4333-91b2-5633dd583417">
+    <name>ТочкаКБП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.аДокументооборотТочкиКорпоративныхПроцессов</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

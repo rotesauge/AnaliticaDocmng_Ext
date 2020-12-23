@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5eff7048-dfcf-44c7-9cde-2e7ce21fe858">
+  <producedTypes>
+    <objectType typeId="bff5c194-c85c-47d1-a99c-e479c2548d0f" valueTypeId="0bdeefed-95cc-4507-962c-0e5e540fd43c"/>
+    <refType typeId="1b1881ca-dda7-4e88-bf7e-8179e13f9d39" valueTypeId="29610444-2471-4fc6-a25b-263ce8b151fb"/>
+    <selectionType typeId="422f2314-f1ee-43ba-b6ec-f49337866482" valueTypeId="2853ee2e-b650-49b6-991c-fb52e0f30f13"/>
+    <listType typeId="a368f27e-ba2f-4ec9-81ca-8b715c0a8657" valueTypeId="649bd6e5-df6b-4b94-bfc2-a5c89cdbad84"/>
+    <managerType typeId="88c4a488-cb97-4019-8bd3-d387064823dd" valueTypeId="d685d67b-5648-44b2-a511-50936ccb173f"/>
+  </producedTypes>
+  <name>аДокументооборотПодписьДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

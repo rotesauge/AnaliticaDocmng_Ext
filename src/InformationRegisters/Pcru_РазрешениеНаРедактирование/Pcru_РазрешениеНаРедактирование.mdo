@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1db0ffd3-24d9-4774-b195-90dac54c43a4">
+  <producedTypes>
+    <selectionType typeId="a11ffeaa-c289-4574-bf37-5d586b098cf8" valueTypeId="9807685f-57d8-4a86-94e1-b5ccdd4bdec4"/>
+    <listType typeId="27e5ce81-8ae9-452e-ae3a-e559ca4e3a2c" valueTypeId="baa8cc74-9234-49ef-8410-be5b188373de"/>
+    <managerType typeId="5c26d418-6d36-4de3-9136-a1803c63f278" valueTypeId="e850207d-4ccb-43d1-90ad-e87624e0a2a8"/>
+    <recordSetType typeId="008b1890-8728-4131-91b2-7ba717b831c7" valueTypeId="4f9598a2-1dc5-45a8-822e-00769bcd138e"/>
+    <recordKeyType typeId="0ae682ed-5221-4bed-9ea1-3ffe6a28cc25" valueTypeId="dc40038a-1c9c-4541-84fa-05c7300566ec"/>
+    <recordType typeId="0b298ee4-1a6c-4de3-b1d3-9a51fb561f18" valueTypeId="fd006272-53ec-42c2-857c-fba207d66283"/>
+    <recordManagerType typeId="336d8a62-a11e-4e58-88a0-095913f77790" valueTypeId="f27fe1f7-b95d-4371-a1d1-b34911dffcba"/>
+  </producedTypes>
+  <name>Pcru_РазрешениеНаРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Профикредит)разрешение на редактирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="001253d5-a1c3-4669-b77d-4cd783db004c">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.аДокументооборотКорпоративныйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="91be2760-d614-4bce-a3ff-8ffb50a99b48">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

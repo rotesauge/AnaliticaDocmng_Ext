@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2bd0b836-40e4-473d-8b59-c366d750313a">
+  <producedTypes>
+    <selectionType typeId="a2e5da5b-1240-402c-9113-836fa57d7c4d" valueTypeId="ef912c1f-d426-42d9-ae3a-98322cc78942"/>
+    <listType typeId="e7369744-c7ba-47ee-b4e0-1960b15967f3" valueTypeId="ec8e3f0d-37c4-44d0-a1af-691b0a6c7196"/>
+    <managerType typeId="54b679ff-0dbe-4a54-8424-6df408f216fe" valueTypeId="723beba5-4335-41e5-b134-b24b9d03de85"/>
+    <recordSetType typeId="4422c77b-53e0-4d13-a6f5-32857fcf3553" valueTypeId="b049129e-be66-49df-a8fa-d6eeac7edf9b"/>
+    <recordKeyType typeId="a558e7a4-e403-41bd-8fb2-0bb23fe47ee1" valueTypeId="0ccfe96b-9f71-43ad-8b32-a0696b9a68bb"/>
+    <recordType typeId="408e9333-9070-43d3-9454-6089c334226e" valueTypeId="f3ae7b2f-bc57-46da-973e-7e21f5c852e2"/>
+    <recordManagerType typeId="56970c03-cf12-4801-a9f2-3a727e0baef9" valueTypeId="a4540e6d-ece7-4134-bb7b-2c6a11c1f983"/>
+  </producedTypes>
+  <name>аДокументооборотСостояниеДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="0f8188e4-c83f-4aac-87d1-78f0c420a1ca">
+    <name>СостояниеДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.аДокументооборотСостояниеДокументов</types>
+    </type>
+  </resources>
+  <dimensions uuid="909eec5d-70bb-4804-ba70-6ff0652f7780">
+    <name>КорпоративныйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.аДокументооборотКорпоративныйДокумент</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

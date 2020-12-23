@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e9336b6-c9a3-4b54-9bdb-77555294c626">
+  <producedTypes>
+    <objectType typeId="268887d5-9f38-43b7-a649-8e910b19afb1" valueTypeId="4a870154-50c7-4d04-bdfa-e11272baea99"/>
+    <refType typeId="a45b9469-78e5-44ed-8c55-542b084e4156" valueTypeId="123d04e2-18ac-44a1-9d93-9ecfe94af5e6"/>
+    <selectionType typeId="0f58b467-28d5-43c5-a467-06ae2f1a88d7" valueTypeId="f1ab4c10-d4cf-4732-8ae5-16b5c30b6a6d"/>
+    <listType typeId="47670a70-6c36-47f7-b7f9-1aab561f78e7" valueTypeId="5aabc882-a03f-432e-a90c-28d2bc3e64cc"/>
+    <managerType typeId="b29d6f90-43bb-4c64-a465-636892712088" valueTypeId="d64b46e9-d46d-4ba9-88ec-1e8c39ea14fa"/>
+  </producedTypes>
+  <name>ВерсииФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="ed6d2f7a-6e33-4644-a162-f2d743443a46">
+    <name>ИндексКартинки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>

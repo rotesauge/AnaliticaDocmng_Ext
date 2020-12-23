@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="16c3f155-985c-4ced-8468-3ce5903422b1">
+  <producedTypes>
+    <objectType typeId="9928cf8f-1dc0-4f85-8766-57f13ce540cb" valueTypeId="882dc2a8-309d-455d-9583-dce8879b0b5c"/>
+    <refType typeId="812b44a8-1384-4436-ba5c-9802ac5f4227" valueTypeId="1963abf8-5458-4211-8944-5e7aaca3a177"/>
+    <selectionType typeId="75349b83-bbc1-4b60-90b1-0f7f0101ddb5" valueTypeId="33a6df20-a6e7-4fc6-9748-a0f49327f5fe"/>
+    <listType typeId="eaebc3f0-7055-48ec-94c3-c81a5a071395" valueTypeId="22668355-9b2c-488a-96e8-86533b223f78"/>
+    <managerType typeId="9fb021f8-ed23-42fd-a07a-277b85dfdadc" valueTypeId="0b7953c0-57a6-4ba0-b15d-4bf8e1493d93"/>
+  </producedTypes>
+  <name>аДокументооборотДополнительныеРеквизиты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="219618fd-1a8a-4831-8f34-b2bb98f3dc68">
+    <name>НаименованиеВФорме</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>

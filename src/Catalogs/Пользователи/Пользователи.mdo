@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="de844a17-91d6-42ae-8959-0e2c45f894d0">
+  <producedTypes>
+    <objectType typeId="e5a03281-f80c-4f8a-b312-7a4a4f51a090" valueTypeId="235f0d16-9593-4f90-a925-098f0cd71aaa"/>
+    <refType typeId="6f84b4f0-9592-4e92-9450-90230458e1fb" valueTypeId="83676a71-7850-4c9e-9e5d-946d528fb402"/>
+    <selectionType typeId="93da1cbc-db2b-43fe-bd7e-b09b53b812a1" valueTypeId="7729637f-7425-46ad-9a28-f7b53d1fbb44"/>
+    <listType typeId="f19b4cde-93cf-4b4c-b4ab-788e848049ee" valueTypeId="3e1de6c9-90d3-44aa-b373-71f55e499abf"/>
+    <managerType typeId="427fbb71-b974-40ad-9bbd-7038f379a80b" valueTypeId="e1917e44-6229-4a72-a6af-d1198fdd1f84"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="fb2a40ee-13b6-4447-8cdd-c956121d417e" extendedConfigurationObject="6fe19446-f5ab-4277-927f-1ecce233b603">
+    <name>аФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+  </attributes>
+  <tabularSections uuid="aa167d9f-09af-49e7-a2c5-721027be4482" extendedConfigurationObject="d6969c1e-e13c-4542-abb7-9cf6bb50b8e2">
+    <producedTypes>
+      <objectType typeId="a415977e-651d-4542-88a1-59c34b099006" valueTypeId="a6c43ee7-6a58-4ee9-ac00-f367fffc3398"/>
+      <rowType typeId="abecfffe-2263-4054-92f5-5e89af1b2870" valueTypeId="20c2c987-9a31-463a-a112-5f3eac4ce1a6"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="7b9cbd46-4727-47bd-8c46-447c54cafcc8" extendedConfigurationObject="b7e85f5c-4312-44c6-895a-3f636a8c78d8">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="014710b4-4939-4ec0-849c-78a313043437" extendedConfigurationObject="ccd91f94-d3f1-4aa3-90cf-081d72c4cab1">
+      <name>Тип</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

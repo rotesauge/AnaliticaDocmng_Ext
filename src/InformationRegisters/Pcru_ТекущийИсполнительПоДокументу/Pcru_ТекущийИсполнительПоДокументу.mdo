@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f0ba2b7-fb0f-4fd5-b6f7-b524b160f828">
+  <producedTypes>
+    <selectionType typeId="48ed356d-1985-481e-92b6-9488ed7ecb05" valueTypeId="252fef2d-7956-4e5a-91e4-7c5d4f078812"/>
+    <listType typeId="7eb681a8-7d46-493f-9e92-a71123c9a55f" valueTypeId="ecef2f13-814f-494c-9ab0-bcf094a85fdb"/>
+    <managerType typeId="593d062b-1aa9-476b-be65-f3c08a356531" valueTypeId="d072545f-230c-4d90-a516-3d6e65aae0c5"/>
+    <recordSetType typeId="5906fccc-40ca-42a7-b70f-7bb4dc231502" valueTypeId="232889f0-9e62-4824-88dc-9fa4c9a3c41a"/>
+    <recordKeyType typeId="4deec24d-3a6a-41ec-8ded-5ed3691de378" valueTypeId="9f3b574a-1c5f-4b34-a04b-2eb389e8a0a9"/>
+    <recordType typeId="9074b447-fbbf-47fb-a487-800d9855538b" valueTypeId="75e02413-3803-42c3-bb61-e002737b48ec"/>
+    <recordManagerType typeId="5cbc978f-2377-409e-a774-0163ecf61508" valueTypeId="c974d44f-3c82-44e7-a389-8f60f6674a8c"/>
+  </producedTypes>
+  <name>Pcru_ТекущийИсполнительПоДокументу</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Профикредит)текущий исполнитель по документу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1aa46554-84bf-478d-a5cc-ba5eedbcfcf5">
+    <name>ТекущийИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3600e010-b666-4541-9393-ba27546b502c">
+    <name>КорпоративныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпоративный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.аДокументооборотКорпоративныйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

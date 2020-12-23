@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f62989-0859-478d-9dc3-2d8e33445163">
+  <name>Pcru_ЗаменаНеАктуальна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru замена не актуальна</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

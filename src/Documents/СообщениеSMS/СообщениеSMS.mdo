@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a6113ac7-9661-4530-8424-e2827b8337da" extendedConfigurationObject="67c1269a-79e6-44d9-9254-671c50fb3974">
+  <producedTypes>
+    <objectType typeId="1725c91d-2c0b-48b1-be8d-bb1fc2ac4b07" valueTypeId="4c52dafa-8339-478f-80d9-48bab19c543c"/>
+    <refType typeId="1608a0fc-a317-4017-a6f2-6564a665e773" valueTypeId="d911463c-beef-4909-a5f2-dea4822db47d"/>
+    <selectionType typeId="a38374c8-7490-4e2a-8421-c30cdbf02a33" valueTypeId="ab473542-0402-48b5-8465-c2ab89b896e1"/>
+    <listType typeId="1e20843e-1032-47e0-b209-bc8959f2e695" valueTypeId="1652d590-8954-4ce1-84f6-7654736fc887"/>
+    <managerType typeId="ae1bea65-df0a-45d0-8297-cb9594f11ff4" valueTypeId="9788be60-a6e8-4000-9837-eefca1d13582"/>
+  </producedTypes>
+  <name>СообщениеSMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

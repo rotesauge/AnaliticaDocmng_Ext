@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="32b31bc2-00c1-4a5b-9f94-4293ad86aa66">
+  <producedTypes>
+    <objectType typeId="fadec3a2-ac53-46db-b788-156da2104196" valueTypeId="cadf0de1-5b99-47e3-84c7-6ad79a9126c7"/>
+    <refType typeId="47003551-2500-4bed-95cd-e4bc03bc48e4" valueTypeId="422d7bcb-5c2c-42e6-872b-af8462d5068f"/>
+    <selectionType typeId="a88e67b2-f47b-42fe-89e7-a1ea82a41e03" valueTypeId="1148b75e-d182-44bd-966e-9041d3f1c04f"/>
+    <listType typeId="bf9fe763-9f26-46d7-9ae4-4d9ccb760f55" valueTypeId="5f2356f1-c5ec-468a-9477-1a80c2c14e74"/>
+    <managerType typeId="15661e71-963b-4e93-8ef4-db5e37dda378" valueTypeId="5257fed6-7d3c-4a03-8613-dd59ece07cd4"/>
+  </producedTypes>
+  <name>аДокументооборотСостояниеДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="12b020c7-2aa1-4e83-a4d4-35e4b1ed3099">
+      <name>НаСогласовании</name>
+      <description>На согласовании</description>
+      <code xsi:type="core:StringValue">
+        <value>2    </value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0bcf75bc-925f-4a0d-a793-5e4e61da7238">
+  <producedTypes>
+    <objectType typeId="b9a179b6-b567-4a73-b0a6-3e9128d3e35f" valueTypeId="2c2839ad-8b51-471e-954c-4a4e94cfdc57"/>
+    <refType typeId="228b5e19-9d58-44d3-97cb-e7dc29dd0a90" valueTypeId="767e241b-7d9b-4419-afee-e130abc9ae96"/>
+    <selectionType typeId="2efd42be-0c22-4709-82ae-923e45c1a0e1" valueTypeId="e2aa2271-544f-47c4-856e-77567303823c"/>
+    <listType typeId="de135263-646f-4e3b-9247-712e7b09f02d" valueTypeId="7bb06e8c-78ac-41e8-9047-578bb58e0993"/>
+    <managerType typeId="02d1680e-1a96-4cb1-93ec-4f47ee5966b5" valueTypeId="cc0c89e1-1ecf-4806-ac9c-1d8db1df038e"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="373f3451-f29f-44d9-8f80-f7f4c4877ada" extendedConfigurationObject="5deb68ff-fa31-4649-8aec-239b1e74f8d0">
+    <name>СрокДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </attributes>
+</mdclass:Catalog>

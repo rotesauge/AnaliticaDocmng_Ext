@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="68e72ec0-3940-4f2e-bcd6-7e8023400795">
+  <producedTypes>
+    <selectionType typeId="e74a8347-e09f-45c2-ac27-b408ff1a487e" valueTypeId="bf308b1b-b200-46f9-b9b8-8e1a0c265314"/>
+    <listType typeId="2c49e1bb-33f9-4db0-93f1-b570f2654955" valueTypeId="41f36b47-f3dd-4890-9f7f-a59843bde0fe"/>
+    <managerType typeId="4604c86f-0181-46a7-ab0e-63a06ec740d5" valueTypeId="eb7ce152-7c28-416a-9f2d-fb169474bc44"/>
+    <recordSetType typeId="47bc8ec4-b035-4afb-8c61-a11d405c7c33" valueTypeId="f97fd1c0-826e-4533-bea4-b3f8cfb67ce4"/>
+    <recordKeyType typeId="022fb99f-92b4-4c9f-bc43-ddb256d0423d" valueTypeId="9b378cf5-1d3b-46e5-bc6c-8771db1d4a89"/>
+    <recordType typeId="0a3598ee-eaed-4623-8768-4d9c21fa654f" valueTypeId="f2c100ec-afdd-4630-8e95-79edf88da767"/>
+    <recordManagerType typeId="cb41bab5-1700-4ba8-9ac9-c980f544aa42" valueTypeId="6f228434-8b8d-4566-a1dc-da25b42bfcca"/>
+  </producedTypes>
+  <name>аДокументооборотРезультатыИсполнителейЗадач</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <resources uuid="991af9e5-959c-4e86-886c-463e7b011905">
+    <name>ЗначениеПараметра</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Characteristic.аДокументооборотРезультатыИсполнителейЗадач</types>
+    </type>
+  </resources>
+  <dimensions uuid="28073820-29bb-4d91-95bd-24021eb135c9">
+    <name>БизнесПроцесс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>BusinessProcessRef.аДокументооборотКорпоративныйБизнесПроцесс</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="5c6729f0-c21c-4d98-93c2-b09802ade71b">
+    <name>Задача</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>TaskRef.аДокументооборотЗадача</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="fa6294d5-8586-4f59-a1a8-a93bbc2c2436">
+    <name>ПараметрРезультата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.аДокументооборотРезультатыИсполнителейЗадач</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

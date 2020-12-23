@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27c993a0-37f4-4491-8f15-e88e2f12ac7d">
+  <producedTypes>
+    <selectionType typeId="c825f32b-fdff-4485-9ca5-64db83391460" valueTypeId="12c0d322-af9c-45e6-b3ba-25c491542fd8"/>
+    <listType typeId="59c4e238-47e1-4c43-9fdf-ff97385b1ea8" valueTypeId="9ff1a50b-28bd-4f3b-b318-246ae0897640"/>
+    <managerType typeId="cb13c762-0324-4527-8480-c93314343b58" valueTypeId="1690a282-9277-4ec4-80d1-00d4038d6210"/>
+    <recordSetType typeId="fbdcf7ff-fd24-42e2-9bd2-bdea1afac18b" valueTypeId="540f3f02-8515-4b34-854b-0ba13689a6ef"/>
+    <recordKeyType typeId="94bd967a-1ced-4e95-818c-5c1671ee463d" valueTypeId="4f8b245e-b47d-4cf7-a916-606ed1113f48"/>
+    <recordType typeId="7c1a5aa8-22ff-4f8d-b5ed-f7c7e279c74c" valueTypeId="d375d621-15d0-482a-a109-434d397c2138"/>
+    <recordManagerType typeId="441bf7d7-39f8-4260-931e-c502d5338dc6" valueTypeId="c5e08068-7608-4a4f-9818-47dda8c0ebec"/>
+  </producedTypes>
+  <name>Pcru_ЗадачиПереадресованнвеПоМатрице</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru задачи переадресованнве по матрице</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0fb0e78a-e6da-4f3b-a0e9-d325abc02a87">
+    <name>ИсходныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b4511009-e23d-4c9f-a897-341bab4e24ae">
+    <name>ТекущийИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14021066-97ce-4aef-b245-1ee3828dada0">
+    <name>НачалоПериодаПереадресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода переадресации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9be39680-1d65-4365-87e6-723fe3131d58">
+    <name>ОкончаниеПериодаПереадресации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание периода переадресации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6328e73c-1013-42ff-9a30-0a159efb028a">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.аДокументооборотЗадача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

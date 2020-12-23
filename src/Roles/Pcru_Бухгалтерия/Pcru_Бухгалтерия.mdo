@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6363aa1-c6d7-4516-856a-99f431e10380">
+  <name>Pcru_Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru бухгалтерия</value>
+  </synonym>
+</mdclass:Role>

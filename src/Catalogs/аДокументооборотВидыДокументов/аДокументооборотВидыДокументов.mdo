@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8511a678-e742-4549-9d59-00387c349f49">
+  <producedTypes>
+    <objectType typeId="0f197ee6-ec02-4161-bc0f-0d2024428427" valueTypeId="08d021f2-73e8-4a6f-9f70-bb809b3c5688"/>
+    <refType typeId="8076054e-bcf9-4bde-ad33-1c633748a1c8" valueTypeId="5da90bb1-4e27-4cd9-a950-ab93474ed7ba"/>
+    <selectionType typeId="807f3e4c-df70-4c98-929a-6a684d3ecf81" valueTypeId="76f15034-c576-4531-8220-1f8526208dc9"/>
+    <listType typeId="df492a55-25a2-46b5-a633-8f5e0663e471" valueTypeId="b2d9fa15-537e-4263-91ab-7e8c493357b8"/>
+    <managerType typeId="99d11de3-81ea-4401-91ff-43825cde21d3" valueTypeId="767c1ca5-ac87-4749-93b5-568a6730b791"/>
+  </producedTypes>
+  <name>аДокументооборотВидыДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

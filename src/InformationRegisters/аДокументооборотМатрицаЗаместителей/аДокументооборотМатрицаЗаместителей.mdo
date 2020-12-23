@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7fab885f-0e0f-45a4-a58e-0e08ef6eb8a3">
+  <producedTypes>
+    <selectionType typeId="bd5f460b-4a62-44e4-9738-833ac9af025b" valueTypeId="16ef9a39-bbcb-4f6d-9337-dacb3342001b"/>
+    <listType typeId="87afae16-1a37-4dd1-9629-95b02914ce03" valueTypeId="46df62b9-f16c-4c5d-8637-4f4fe0b67dc9"/>
+    <managerType typeId="8776ea13-d06d-4f89-8eef-501143e0b6ca" valueTypeId="ecf700a6-00f2-4cb0-88b0-d257503c8260"/>
+    <recordSetType typeId="0fae0131-e1d6-407e-b810-9a9a1c459745" valueTypeId="faa9005c-5bac-4917-b260-0ffb4bd5e545"/>
+    <recordKeyType typeId="23acf2f4-b61e-43eb-8830-7dbce8384a20" valueTypeId="0170bdc3-ddf8-4013-9a2a-f29ef9f76e9c"/>
+    <recordType typeId="582f791b-8543-4364-bc2a-21a90b771e85" valueTypeId="482903bd-de7c-42d4-8490-05607d1cd1c9"/>
+    <recordManagerType typeId="0f1c39ea-ebc5-4f79-805f-920224cc07ac" valueTypeId="214f6644-81ae-405e-9e4a-bab84d939d6f"/>
+  </producedTypes>
+  <name>аДокументооборотМатрицаЗаместителей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="fdc46041-8b5b-4f85-81f1-837d3fca8a24">
+    <name>ЗаместительСотрудника</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </resources>
+  <resources uuid="26191e0b-5c1c-41af-8c9a-23980d8cdbb9">
+    <name>ДатаОкончания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="41933fa3-a044-4185-8f46-04ca7db95a77">
+    <name>Заместитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </resources>
+  <resources uuid="c819f55f-3b53-4d9d-bec1-c90bf02e2bc0" extendedConfigurationObject="26917014-69cf-4289-bc74-4144458b8a38">
+    <name>НачинатьЗаменуЕслиНетОтветаЧерезПериодов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="ffcd9b29-90bf-4b7a-bf7e-dc4d1c3e28a3" extendedConfigurationObject="fac02b6c-8d3e-4ce7-80c0-607bba60b5ee">
+    <name>ВидПериода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="97d6bd55-3920-4cde-82e2-71b22235b5e0">
+    <name>Примечание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="4b5a14e1-acef-4ab1-9314-6b78fe2440ec">
+    <name>ПричинаЗамены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <dimensions uuid="4ad8cc9e-289a-4b45-9d57-2c012da1eaec">
+    <name>ЗамещаемыйСотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="59389f6e-9e59-4356-82b5-7027bf72ff6b" extendedConfigurationObject="508cd14c-2f96-460b-b94a-53a496dcb05d">
+    <name>Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="f6bbfd92-036c-490f-a8db-e3137937082e" extendedConfigurationObject="b7219a7c-543c-4cc4-ae94-9f2e6f0bbc52">
+    <name>ЗаменаНеАктуальна</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="220848ad-09f7-40b1-9598-64a26de18fd8" extendedConfigurationObject="527a81c9-ad5d-450e-a682-0810b0258b4c">
+    <name>ТолькоДляВидаПроцесса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.аДокументооборотВидыПроцессов</types>
+    </type>
+  </dimensions>
+  <commands uuid="12fde322-f3a1-4f0c-8373-8fd840c687f3">
+    <name>МатрицаЗаместителей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+    </extension>
+    <group>ActionsPanelTools</group>
+  </commands>
+</mdclass:InformationRegister>

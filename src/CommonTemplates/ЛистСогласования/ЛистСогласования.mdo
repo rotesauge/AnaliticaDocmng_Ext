@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26cae0f9-6799-4984-8a62-1de247e0ac35">
+  <name>ЛистСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лист согласования</value>
+  </synonym>
+  <synonym>
+    <key>En</key>
+    <value>reconciliation sheet</value>
+  </synonym>
+</mdclass:CommonTemplate>

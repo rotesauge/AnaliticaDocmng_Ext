@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afeb0f72-d09d-4141-ab5c-828b2b8cf6b0">
+  <name>Pcru_ЗаместителиВнести</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru заместители внести</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

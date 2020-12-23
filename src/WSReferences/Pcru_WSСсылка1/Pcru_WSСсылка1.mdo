@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fabbf6e8-c398-4a92-a010-fdc0d73b5d1c">
+  <producedTypes>
+    <managerType typeId="fa7e3e31-572e-40b3-aecd-b680c65c08ec" valueTypeId="92a3d8c0-9df8-466a-ba86-cd94005a5d41"/>
+  </producedTypes>
+  <name>Pcru_WSСсылка1</name>
+  <locationURL>http://ruspbpacc01/UMFO/ws/ws1.1cws?wsdl</locationURL>
+</mdclass:WSReference>

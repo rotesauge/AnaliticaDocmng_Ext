@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bbc4c0b-64bf-4f72-aab5-bee183c2b7a9">
+  <producedTypes>
+    <selectionType typeId="e64fe100-c927-4158-8273-d0035f8d710d" valueTypeId="6f93bca8-2108-4579-bd35-c80b2a5529db"/>
+    <listType typeId="bb7411d3-815f-4517-9804-6f2afb95ca15" valueTypeId="aa1e694e-1eb1-46fb-b87d-a01b72479095"/>
+    <managerType typeId="4c20afb2-b0c1-4270-b7d2-be5a4895d7d9" valueTypeId="3e0ccd4c-a4df-460b-85c4-a76194722d8d"/>
+    <recordSetType typeId="3d93689a-5f20-4c6a-b1d4-443b5b691a94" valueTypeId="8c1cc96d-f25c-4c75-a228-d776391a7db6"/>
+    <recordKeyType typeId="61807527-578c-46e2-85fe-8ecfb7a94b54" valueTypeId="2f78156b-bc3e-41b6-af87-304ff5bba615"/>
+    <recordType typeId="70442bc3-c904-4016-89e8-fb74c41e4410" valueTypeId="59899fb8-5c63-4ac5-a962-bea1ca291171"/>
+    <recordManagerType typeId="93de1831-afdc-4320-a7fb-db1959514239" valueTypeId="928b287a-f631-4c13-96a1-3845a2a0387f"/>
+  </producedTypes>
+  <name>Pcru_МатрицаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ПРОФИКРЕДИТ) Матрица согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="b1d740ea-9be8-4542-8a6c-c683518fc2e8">
+    <name>Шаг1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="005ff3ef-1b50-4ba8-a86b-a7e4c6f1062e">
+    <name>Шаг2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28b3789b-dd1c-4dd0-80f3-9f9b75573edc">
+    <name>Шаг3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг3</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a15b5cf2-de41-454d-9e4f-c6982aa564fa">
+    <name>Шаг4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг4</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="69854fb3-d9e6-41db-adbf-176366a0eed9">
+    <name>НастройкаРаспределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка распределения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.пкру_СтатьиРасходов</types>
+      <types>CatalogRef.пкру_CostCentr</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

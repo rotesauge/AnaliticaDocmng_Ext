@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f7fe252-8a46-4e95-9a0f-025d74d19fc5">
+  <producedTypes>
+    <selectionType typeId="c3081732-3afd-4da0-9b8c-a5f0fdbc6950" valueTypeId="25297119-cd8c-481b-873b-f014d6fb26d2"/>
+    <listType typeId="ac558379-bb80-43d2-b56b-f5437915061e" valueTypeId="4e3ad5db-73e7-4ab5-bcb8-952d5b51b6eb"/>
+    <managerType typeId="37b2ae3f-fc36-459e-83e4-8c2824ace8e8" valueTypeId="b4079075-0302-4356-9189-0e990673f088"/>
+    <recordSetType typeId="d9690871-7e52-4c85-8b30-a25c695ff860" valueTypeId="c4bbaef7-96b4-452b-8092-dffda04e0c83"/>
+    <recordKeyType typeId="bea6b3e5-1f40-4126-8210-a0fec8434e2e" valueTypeId="e9aefb78-e03f-4077-8140-8923486d5a09"/>
+    <recordType typeId="fa0aed8a-9742-4bd7-8cb0-afb8b8bf20c7" valueTypeId="b9c626ed-9203-48bc-bdcc-216d5c7ca02d"/>
+    <recordManagerType typeId="557e60fb-3b22-4752-bc11-ee70c2e23758" valueTypeId="92405b23-5031-46de-a215-f1cb4f7c6e10"/>
+  </producedTypes>
+  <name>Pcru_ОтветственныеЛицаПоОтделам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru ответственные лица по отделам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b35b3649-cb30-48c4-9cd0-e2d97079801a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c6783224-ca94-429c-a684-9ebecdbfe53a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9170f3c-447f-413b-a707-9dbd9479c4c2">
+    <name>CostCentr</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cost centr</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.пкру_CostCentr</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bd95e6c0-5344-4dd5-b891-81be1e6daf4f">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

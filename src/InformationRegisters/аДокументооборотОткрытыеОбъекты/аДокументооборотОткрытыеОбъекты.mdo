@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="78d37dda-89d1-4dee-b8fd-c5b6fbcfe1da" extendedConfigurationObject="64648134-a3c4-4197-ac47-97fd4f2acd6b">
+  <producedTypes>
+    <selectionType typeId="d6193559-f091-492d-8349-a49d9cdccf3e" valueTypeId="70907653-1bb6-4d99-9cb5-46e9951ca737"/>
+    <listType typeId="5775af39-327d-443f-8af5-ad33c8e8dc38" valueTypeId="f4ed0991-e6f4-4f0d-a07d-cfb4d760d4c1"/>
+    <managerType typeId="48801001-44c6-4ea5-8b00-28bff2a14982" valueTypeId="066a86e0-aa29-4582-90e7-f382f2a97ca2"/>
+    <recordSetType typeId="2d7839f6-1f0d-4dfb-b69b-4858c3c2a43a" valueTypeId="bf3d2b85-6b85-4e06-b0a1-31bea64f6f9e"/>
+    <recordKeyType typeId="b11f8a85-12b0-44b2-b4cd-3c5d25ac2210" valueTypeId="eb2501c3-45ef-4cc7-9073-1b7c59fa5a83"/>
+    <recordType typeId="ce8abd36-8793-46cd-b4a4-0711a62627a4" valueTypeId="0873e2b9-b31e-44f7-87c7-cf42a53b79f0"/>
+    <recordManagerType typeId="c98e9f42-7297-4deb-9aca-c453ee336af9" valueTypeId="e18a3f2a-0219-4baa-be73-e74404b91a16"/>
+  </producedTypes>
+  <name>аДокументооборотОткрытыеОбъекты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="e24703ff-c576-45c8-b270-45213a54cd28" extendedConfigurationObject="653ce8da-2dc4-4c43-bde1-90bb17a3f944">
+    <name>ДатаВремяОткрытия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="56de01df-2759-41f2-9aec-9e63ff73611b" extendedConfigurationObject="bdf2a9d3-9360-4d13-8ee2-67b75ddafdca">
+    <name>ТолькоПросмотр</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <dimensions uuid="ac513240-2399-4a66-941f-ffa76613ed5a" extendedConfigurationObject="e599151b-3bec-4f97-8eb8-86dd672826b6">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.аДокументооборотКорпоративныйДокумент</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="75e93a79-7186-400c-a147-c7ce2c53ebd2" extendedConfigurationObject="ba680dbc-48ac-4d4a-af25-ef5887c1ac9f">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="678c77e1-192e-4f54-a588-89f00f229f51">
+  <name>Pcru_DocumentWorkflow</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru document workflow</value>
+  </synonym>
+  <namespace>http://ruspbpacc01/DocumentWorkflow</namespace>
+  <descriptorFileName>DocumentWorkflow.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="b51d2e10-2e64-4eaa-87df-2a34d1c28162">
+    <name>NewDocument</name>
+    <synonym>
+      <key>ru</key>
+      <value>New document</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <transactioned>true</transactioned>
+    <procedureName>NewDocument</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="cd51199c-b09b-4108-bac7-166299f2c787">
+      <name>ParamsStruct</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params struct</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a11d7a6c-73d7-4b7d-8012-d3cf57f076ce">
+    <name>GetDocStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get doc status</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <transactioned>true</transactioned>
+    <procedureName>GetDocStatus</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="57705747-77f0-435b-933d-320692b8f9cb">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="44cdcb5b-38bf-4dc1-9a57-9617a278a416">
+    <name>NewContragent</name>
+    <synonym>
+      <key>ru</key>
+      <value>New contragent</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>NewContragent</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3a414343-4034-400d-85b2-5c9c98f89ebe">
+      <name>Params</name>
+      <synonym>
+        <key>ru</key>
+        <value>Params</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="36e6e246-de2c-4fd7-a6e5-4e1f92bd5953">
+    <name>GetLists</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get lists</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>GetCostCentrList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="531aa263-3f4b-4602-8836-ab07e41b2195">
+    <name>NewCostCentr</name>
+    <synonym>
+      <key>ru</key>
+      <value>New cost centr</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>NewCostCentr</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="82023443-7d34-4042-83fa-34ce4fb526a6">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="a8c3f26a-4697-48e4-ac2a-972af2e035f8">
+    <name>NewCostItem</name>
+    <synonym>
+      <key>ru</key>
+      <value>New cost item</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>NewCostItem</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7a2c7371-a014-4d73-ae23-99bebeb3c7dd">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="3e554e1e-c793-4ce6-b9d0-a6f624117a81">
+    <name>GetUnitList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get unit list</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetUnitList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="be82f8e4-eb53-4158-aa88-c082ab8f3f08">
+    <name>LoadContragent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Load contragent</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadContragent</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8f9fab6b-2714-4434-96af-55033a912ac7">
+      <name>JsonStr</name>
+      <synonym>
+        <key>ru</key>
+        <value>Json str</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

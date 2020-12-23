@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="221f53c7-5847-4699-8dfd-3c8b7ac9037e">
+  <name>Pcru_ИнтерфейсПользователяСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Профикредит)интерфейс пользователя сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

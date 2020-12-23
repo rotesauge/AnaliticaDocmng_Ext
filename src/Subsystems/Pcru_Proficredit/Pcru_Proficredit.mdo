@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="997a3839-2f97-4a76-ba88-7fb96716935b">
+  <name>Pcru_Proficredit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pcru proficredit</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.pcru_Профикредит1</picture>
+  </picture>
+  <content>DataProcessor.pcru_Задачи</content>
+  <content>DataProcessor.PCRU_СообщенияИДокументы2016</content>
+  <content>InformationRegister.pcru_ПараметрыВыданныхЗадач</content>
+  <content>WebService.Pcru_DocumentWorkflow</content>
+  <content>InformationRegister.аДокументооборотОткрытыеОбъекты</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.пкру_CostCentr</content>
+  <content>Catalog.пкру_Офисы</content>
+  <content>Catalog.пкру_СтатьиРасходов</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.КонтактныеЛицаКонтрагентов</content>
+  <content>InformationRegister.Pcru_СоответствиеДокументовЗапускаемыхПроцессов</content>
+  <content>InformationRegister.Pcru_МатрицаСогласования</content>
+</mdclass:Subsystem>

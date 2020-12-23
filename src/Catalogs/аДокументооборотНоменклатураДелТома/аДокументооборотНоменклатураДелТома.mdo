@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5e1e6669-a427-44a5-9afa-14b822185e90">
+  <producedTypes>
+    <objectType typeId="191f5b1e-9b34-45d0-a9ea-13d3fe7bdaa6" valueTypeId="96b71838-761e-4ac6-8917-ba5d05957f81"/>
+    <refType typeId="0f90bf8d-f4e2-4ff8-9868-3aa9891b5a4c" valueTypeId="761ac35a-16f0-4b71-a91f-795883acf4f5"/>
+    <selectionType typeId="f9ab45d4-a480-46f3-8b51-711d6a0a50fc" valueTypeId="9e28e3f4-06bd-4801-8880-68fe0c638065"/>
+    <listType typeId="9705534e-87eb-4582-9a6f-664737e9129d" valueTypeId="c79d8af8-55ab-493c-a338-aed1edea8cb1"/>
+    <managerType typeId="3b730c80-c386-4b12-bbdd-555e68043ef3" valueTypeId="e9781731-9336-4b14-958e-fedeeda9a60b"/>
+  </producedTypes>
+  <name>аДокументооборотНоменклатураДелТома</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

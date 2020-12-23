@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://ruspbpacc01/DocumentWorkflow"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://ruspbpacc01/DocumentWorkflow"
+		name="pcru_ex_Exchange"
+		targetNamespace="http://ruspbpacc01/DocumentWorkflow">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="http://ruspbpacc01/DocumentWorkflow"
+				targetNamespace="http://ruspbpacc01/DocumentWorkflow"
+				elementFormDefault="qualified">
+			<xs:element name="CreateBill">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Param"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CreateBillResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="CreateBillRequestMessage">
+		<part name="parameters"
+				element="tns:CreateBill"/>
+	</message>
+	<message name="CreateBillResponseMessage">
+		<part name="parameters"
+				element="tns:CreateBillResponse"/>
+	</message>
+	<portType name="pcru_ex_ExchangePortType">
+		<operation name="CreateBill">
+			<input name="CreateBillRequest"
+					message="tns:CreateBillRequestMessage"/>
+			<output name="CreateBillResponse"
+					message="tns:CreateBillResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="pcru_ex_ExchangeSoapBinding"
+			type="tns:pcru_ex_ExchangePortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="CreateBill">
+			<soapbind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#pcru_ex_Exchange:CreateBill"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="pcru_ex_ExchangeSoap12Binding"
+			type="tns:pcru_ex_ExchangePortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="CreateBill">
+			<soap12bind:operation style="document"
+					soapAction="http://ruspbpacc01/DocumentWorkflow#pcru_ex_Exchange:CreateBill"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="pcru_ex_Exchange">
+		<port name="pcru_ex_ExchangeSoap"
+				binding="tns:pcru_ex_ExchangeSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://ruspbpacc01/UMFO/ws/ws1.1cws"/>
+		</port>
+		<port name="pcru_ex_ExchangeSoap12"
+				binding="tns:pcru_ex_ExchangeSoap12Binding">
+			<soap12bind:address location="http://ruspbpacc01/UMFO/ws/ws1.1cws"/>
+		</port>
+	</service>
+</definitions>

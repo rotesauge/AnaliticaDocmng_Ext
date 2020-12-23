@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa39ec13-cf3e-4525-a3c2-179a43516b19" extendedConfigurationObject="7dca913d-e37a-4740-8e3d-677d379605ee">
+  <producedTypes>
+    <objectType typeId="d41fd27f-472f-4f5b-8286-9f40a4f07d93" valueTypeId="d6136eda-6100-4a61-a7ef-ed71ea7a03bf"/>
+    <managerType typeId="799a0150-2b3f-4ae3-81c0-09ed135c7576" valueTypeId="4f9c10ce-b2d8-478f-b2f8-16fd88e1aff1"/>
+  </producedTypes>
+  <name>УдалениеПомеченныхОбъектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:DataProcessor>

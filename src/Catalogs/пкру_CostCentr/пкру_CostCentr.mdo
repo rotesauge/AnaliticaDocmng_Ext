@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0001c9f8-be1e-40c8-83e3-6e9699081be3">
+  <producedTypes>
+    <objectType typeId="bdd0ebee-f0f9-41b0-83d9-2a954162ffb8" valueTypeId="8155ab53-9422-4cba-8923-1f5c4c3132ce"/>
+    <refType typeId="d6fabfa5-f038-4e46-9985-7a6963964750" valueTypeId="17b85881-2dd5-4927-ad2d-49e19f8bf4b2"/>
+    <selectionType typeId="19aeab2c-eabb-4375-bac6-0569d5f9b12a" valueTypeId="e5f08e01-507d-42b7-84b5-471a1b15aad0"/>
+    <listType typeId="baefd2a1-6732-4363-8176-77b8126098f8" valueTypeId="4cf0c78d-ef04-4dcb-b9ec-4c33964bba1f"/>
+    <managerType typeId="c7b25815-34a1-4728-be2c-2478f153a953" valueTypeId="2a4b9399-da11-4a61-af2c-ee0b0cb19846"/>
+  </producedTypes>
+  <name>пкру_CostCentr</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Профикредит) Кост-Центры</value>
+  </synonym>
+  <synonym>
+    <key>En</key>
+    <value>Expenditures</value>
+  </synonym>
+  <inputByString>Catalog.пкру_CostCentr.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.пкру_CostCentr.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4011fdf4-68de-4801-9035-088f80c8e79a">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <synonym>
+      <key>En</key>
+      <value>Office</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.пкру_Офисы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d735a3cb-9329-4489-8878-74141e50218a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>En</key>
+      <value>Subdivision</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="be08e337-178c-42c5-81f2-d9edfae03202">
+    <producedTypes>
+      <objectType typeId="ca7271eb-9f43-4420-9fb2-263034b8ac4c" valueTypeId="f6ef2e07-1015-42b7-9a82-f98a0524902a"/>
+      <rowType typeId="1f58f8f7-e4b9-4636-bdec-946833083095" valueTypeId="cc7d92bf-7daf-4712-8a33-2fd12f2ba54a"/>
+    </producedTypes>
+    <name>ПорядокСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок согласования</value>
+    </synonym>
+    <attributes uuid="536879d9-bbf2-4569-9333-ee64117cac3f">
+      <name>Согласующий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Согласующий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

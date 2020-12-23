@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b9912690-a1f2-4d44-9235-d68c8e6619a9">
+  <producedTypes>
+    <selectionType typeId="8d86958f-2e56-43e8-a263-9e83a915a966" valueTypeId="7fef1b0d-f66b-4094-8d22-2858e43c680d"/>
+    <listType typeId="9520feb9-21eb-492c-b9c8-5cfe9cd7a90d" valueTypeId="86850adc-86b4-4190-9f9a-faba24351164"/>
+    <managerType typeId="bada9972-af33-47a6-a8c6-20af9a19ca2b" valueTypeId="6e690e54-b7b8-4ea3-9e8f-e260d16f47e8"/>
+    <recordSetType typeId="0eda8b6e-eae7-4fae-8ecf-e6063bf93c52" valueTypeId="094a8a3c-f662-46a4-b4dd-4c987b0568c9"/>
+    <recordKeyType typeId="0ef223a0-207c-41f3-8811-00bc30629f22" valueTypeId="7a3663e3-d664-478d-b219-44fe5a127c92"/>
+    <recordType typeId="c5e0cb5f-ca0b-4db7-9570-1d3b0c75c80d" valueTypeId="f45b2db0-1e43-4ca4-84b5-d6ac64dd8c96"/>
+    <recordManagerType typeId="4c3937d9-72dd-4aad-8a29-970794756e8e" valueTypeId="5dca186f-dbb8-42ef-a60b-2c5c92fb4cc7"/>
+  </producedTypes>
+  <name>аДокументооборотСсылкиПроцессов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="1a4d0ae6-ec78-4498-8279-529e7fac8288">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="1ee3e56b-4196-4b5f-8dbd-d6970a92d8b2">
+    <name>БизнесПроцесс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>BusinessProcessRef.аДокументооборотКорпоративныйБизнесПроцесс</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

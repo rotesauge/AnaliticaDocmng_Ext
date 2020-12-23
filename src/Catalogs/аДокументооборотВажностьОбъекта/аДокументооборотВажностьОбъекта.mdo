@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfcf1083-ed4c-47e2-b7c5-179386a43f95">
+  <producedTypes>
+    <objectType typeId="4e2b4a6d-2a92-401a-b0d3-73b68bd95c93" valueTypeId="a6a27907-ea37-4e2c-bcc3-81447b30cc93"/>
+    <refType typeId="1750c4d8-dfd2-42a6-8576-c724addf9808" valueTypeId="563ee9fc-97e8-46f6-8880-cee3528f06e5"/>
+    <selectionType typeId="79dae6f3-ef8e-4627-ba82-ba5535742dd7" valueTypeId="28fb954c-b428-4e4e-93c4-bf622a36b34b"/>
+    <listType typeId="ad028702-c540-4d0b-ab74-a1be938b3e8a" valueTypeId="f1e0c3be-946a-443d-8aee-e2fdfd6f3c24"/>
+    <managerType typeId="d31f8b70-5aef-462a-b2b9-2fd0c790369e" valueTypeId="d4e12ddb-37a5-441f-b0f2-1dc99c2e5fd0"/>
+  </producedTypes>
+  <name>аДокументооборотВажностьОбъекта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>
